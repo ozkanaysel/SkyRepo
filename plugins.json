@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Dizipal",
+        "internalName": "Dizipal",
+        "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/Dizipal.sky",
+        "version": 1,
+        "language": "tr",
+        "types": [
+            "Movies"
+        ]
+    }
+]
