@@ -1,6 +1,6 @@
 {
-    "name": "Ozkan Smart Repo",
-    "id": "com.ozkan.smart",
+    "name": "Ozkan Repo",
+    "id": "com.ozkan.repo",
     "manifestVersion": 1,
     "pluginLists": [
         "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/plugins.json"
