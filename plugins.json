@@ -1,18 +1,8 @@
 [
     {
-        "name": "DiziPal",
-        "internalName": "DiziPal",
-        "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/DiziPal.sky",
-        "version": 1,
-        "language": "tr",
-        "types": [
-            "Movies"
-        ]
-    },
-    {
-        "name": "NeonSpor",
-        "internalName": "NeonSpor",
-        "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/NeonSpor.sky",
+        "name": "Dizipal",
+        "internalName": "Dizipal",
+        "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/Dizipal.sky",
         "version": 1,
         "language": "tr",
         "types": [
