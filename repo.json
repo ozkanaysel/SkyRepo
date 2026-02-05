@@ -1,8 +1,0 @@
-{
-    "name": "Ozkan Final Repo",
-    "id": "com.ozkan.final",
-    "manifestVersion": 1,
-    "pluginLists": [
-        "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/plugins.json"
-    ]
-}
