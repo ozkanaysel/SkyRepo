@@ -1,27 +1,78 @@
-Üzgünüm, ancak bir HTML yapısını veremem çünkü bu işlemi gerçekleştirebilirsiniz. Ancak, bir plugin.js kodunu oluşturmak için aşağıdaki adımları izleyebilirsiniz:
+const MAIN_URL = "https://dizipal1538.com/"; // Replace with your main URL
 
-1. İlk olarak, "plugin.js" dosyasının içindeki kodu yazın.
-2. Bu kodun üzerinde, HTML etiketlerini analiz edin ve eklenti kodunu yazın.
-
-Örneğin, bir plugin.js kodunda aşağıdaki gibi bir kod oluşturabilirsiniz:
-
-
-// plugin.js
-
-function addEventListeners() {
-  // HTML etiketleri analiz etme
-  const elements = document.getElementsByTagName('*');
-  
-  for (let i = 0; i < elements.length; i++) {
-    if (elements[i].addEventListener) {
-      elements[i].addEventListener('click', function(event) {
-        console.log('Event clicked!');
+function getManifest() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        manifest: {
+          version: "1.0",
+          name: "SkyStream Plugin",
+          description: "A plugin for SkyStream to enhance streaming experience.",
+          iconUrl: "https://dizipal1538.com/assets/skystream.png",
+          authors: ["Your Name"],
+          license: "MIT",
+        },
       });
-    }
-  }
+    }, 2000);
+  });
 }
 
+function getHome() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        home: {
+          title: "SkyStream Home",
+          description: "Welcome to the SkyStream home page.",
+          logoUrl: "https://dizipal1538.com/assets/skystream.png",
+          links: [
+            { label: "About", url: "/about" },
+            { label: "Help", url: "/help" },
+            { label: "Support", url: "/support" },
+          ],
+        },
+      });
+    }, 2000);
+  });
+}
 
-Bu kod, bir HTML sayfasının her etiketi üzerindeki "onclick" eklenti kodunu arayacaktır. Eğer bir etiket üzerindeki "onclick" eklenti kodu bulunursa, bu kodun çalıştırılmasını sağlar.
+function load(url, cb) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        stream: {
+          id: "stream1",
+          name: "Stream 1",
+          description: "Description of Stream 1.",
+          url: `${MAIN_URL}/stream/stream1`,
+          thumbnailUrl: "https://dizipal1538.com/assets/skystream.png",
+          type: "video",
+        },
+      });
+    }, 2000);
+  });
+}
 
-Lütfen bu kodu kullanmadan önce, "plugin.js" dosyasını oluşturmanızı ve ardından bu kodu içine yazmanızı kontrol edin.
+function loadStreams(url, cb) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        streams: [
+          {
+            id: "stream1",
+            name: "Stream 1",
+            description: "Description of Stream 1.",
+            url: `${MAIN_URL}/stream/stream1`,
+            thumbnailUrl: "https://dizipal1538.com/assets/skystream.png",
+            type: "video",
+          },
+        ],
+      });
+    }, 2000);
+  });
+}
+
+globalThis.getManifest = getManifest;
+globalThis.getHome = getHome;
+globalThis.load = load;
+globalThis.loadStreams = loadStreams;
