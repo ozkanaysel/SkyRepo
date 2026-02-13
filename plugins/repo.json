@@ -1,8 +1,8 @@
 {
-  "name": "Ozkan Auto Repo",
+  "name": "Ozkan Stars Repo",
   "id": "com.ozkan.repo",
   "manifestVersion": 1,
-  "description": "Auto Repository",
+  "description": "Personal Repository",
   "pluginLists": [
     "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/plugins.json"
   ]
