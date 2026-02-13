@@ -1,5 +1,8 @@
 {
   "name": "SkyStream Auto Universe",
+  "id": "com.ozkan.universe",
+  "manifestVersion": 1,
+  "description": "Root Repository",
   "repos": [
     "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/repo.json"
   ]
