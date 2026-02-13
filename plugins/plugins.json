@@ -6,6 +6,11 @@
     "authors": [
       "Kraptor"
     ],
+    "language": "tr",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
     "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/selcukflix.sky"
   }
 ]
