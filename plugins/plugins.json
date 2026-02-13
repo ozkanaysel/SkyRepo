@@ -1,21 +1,20 @@
 [
   {
-    "id": "com.kerimmkirac.selcukflix",
+    "id": "com.ozkan.selcukflix",
     "name": "Sel\u00e7ukFlix",
     "internalName": "selcukflix",
-    "version": 16,
+    "version": 1,
     "authors": [
-      "Kraptor",
       "Ozkan"
     ],
-    "description": "Next.js API based Provider",
+    "description": "Yeni Sel\u00e7ukFlix Eklentisi",
     "language": "tr",
     "tvTypes": [
       "Movie",
       "TvSeries"
     ],
-    "baseUrl": "https://selcukflix.com",
-    "iconUrl": "",
+    "iconUrl": "https://selcukflix.net/favicon.ico",
+    "siteUrl": "https://selcukflix.net",
     "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/selcukflix.sky"
   }
 ]
