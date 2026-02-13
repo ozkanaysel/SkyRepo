@@ -1,11 +1,18 @@
 [
   {
-    "id": "com.ozkan.auto",
-    "name": "Auto (selcukflix.net/)",
+    "id": "com.ozkan.selcukflix",
+    "name": "Selcukflix",
     "version": 1,
-    "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/otomatik.sky",
+    "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/selcukflix.sky",
+    "iconUrl": "https://selcukflix.net//favicon.ico",
     "authors": [
       "Ozkan"
-    ]
+    ],
+    "description": "Selcukflix Provider",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "language": "tr"
   }
 ]
