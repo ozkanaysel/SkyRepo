@@ -1,9 +1,11 @@
 [
   {
-    "id": "com.ozkan.selcukflix",
-    "name": "Sel\u00e7ukFlix",
+    "id": "com.ozkan.auto",
+    "name": "Auto (selcukflix.net/)",
     "version": 1,
-    "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/selcukflix.sky",
-    "iconUrl": "https://selcukflix.net/favicon.ico"
+    "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/otomatik.sky",
+    "authors": [
+      "Ozkan"
+    ]
   }
 ]
