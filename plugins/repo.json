@@ -1,6 +1,6 @@
 {
-  "name": "Stars Repo",
-  "id": "dev.stars",
+  "name": "Ozkan Stars Repo",
+  "id": "ozkan.stars",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/plugins.json"
