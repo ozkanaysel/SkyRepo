@@ -1,8 +1,9 @@
 {
-  "name": "SkyStream Universe",
-  "id": "sky.universe.custom",
-  "manifestVersion": 1,
-  "repos": [
-    "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/repo.json"
-  ]
+    "name": "SkyStream Universe Repository",
+    "id": "sky.universe",
+    "description": "SkyStream Universe plugins repository",
+    "manifestVersion": 1,
+    "repos": [
+        "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/refs/heads/main/plugins/repo.json"
+    ]
 }
