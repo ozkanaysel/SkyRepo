@@ -1,7 +1,6 @@
 {
-  "name": "Ozkan SkyStream Universe",
-  "id": "ozkan.universe",
-  "description": "Root of SkyStream Universe",
+  "name": "SkyStream Universe",
+  "id": "sky.universe",
   "manifestVersion": 1,
   "repos": [
     "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/repo.json"
