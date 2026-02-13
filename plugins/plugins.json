@@ -1,14 +1,14 @@
 [
   {
-    "id": "com.ozkan.selcukflix",
-    "name": "Selcukflix",
+    "id": "com.ozkan.slcflx",
+    "name": "Slcflx",
     "version": 1,
-    "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/selcukflix.sky",
+    "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/slcflx.sky",
     "iconUrl": "https://selcukflix.net//favicon.ico",
     "authors": [
       "Ozkan"
     ],
-    "description": "Selcukflix Provider",
+    "description": "Slcflx Provider",
     "tvTypes": [
       "Movie",
       "TvSeries"
