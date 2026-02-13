@@ -1,0 +1,9 @@
+{
+  "name": "Ozkan Stars Repository",
+  "id": "ozkan.stars.repo",
+  "description": "Personal SkyStream Repository",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/plugins.json"
+  ]
+}
