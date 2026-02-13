@@ -2,15 +2,20 @@
   {
     "id": "com.kerimmkirac.selcukflix",
     "name": "Sel\u00e7ukFlix",
+    "internalName": "selcukflix",
     "version": 16,
     "authors": [
-      "Kraptor"
+      "Kraptor",
+      "Ozkan"
     ],
+    "description": "Next.js API based Provider",
     "language": "tr",
     "tvTypes": [
       "Movie",
       "TvSeries"
     ],
+    "baseUrl": "https://selcukflix.com",
+    "iconUrl": "",
     "url": "https://raw.githubusercontent.com/ozkanaysel/Skyrepo/main/plugins/selcukflix.sky"
   }
 ]
