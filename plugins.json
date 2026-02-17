@@ -2,15 +2,14 @@
   {
     "name": "slc",
     "internalName": "slc",
-    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/slc.sky",
-    "version": 3,
-    "authors": [
-      "ozkanaysel"
-    ],
+    "id": "com.ozkanaysel.slc",
+    "version": 4,
+    "authors": ["ozkanaysel"],
+    "description": "Selcukflix JS Mirror Extension",
     "language": "tr",
-    "types": [
-      "Movies",
-      "TV"
-    ]
+    "types": ["Movies", "TV"],
+    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/slc.sky",
+    "manifest": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/slc/manifest.json",
+    "icon": "https://raw.githubusercontent.com/akashdh11/skystream/main/assets/icon.png"
   }
 ]
