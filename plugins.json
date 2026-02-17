@@ -1,0 +1,16 @@
+[
+  {
+    "name": "slc",
+    "internalName": "slc",
+    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/slc.sky",
+    "version": 1,
+    "authors": [
+      "ozkanaysel"
+    ],
+    "language": "tr",
+    "types": [
+      "Movies",
+      "TV"
+    ]
+  }
+]

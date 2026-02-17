@@ -1,0 +1,8 @@
+{
+  "name": "SkyStream Universe Repo",
+  "id": "com.ozkanaysel.repo",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/plugins.json"
+  ]
+}
