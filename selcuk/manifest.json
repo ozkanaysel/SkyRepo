@@ -1,8 +1,0 @@
-{
-    "id": "com.ozkanaysel.selcuk",
-    "name": "selcuk",
-    "version": "1",
-    "main": "provider.py",
-    "author": "ozkanaysel",
-    "type": "TV_SHOWS_AND_MOVIES"
-}
