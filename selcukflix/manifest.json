@@ -1,0 +1,8 @@
+{
+    "id": "com.ozkanaysel.selcukflix",
+    "name": "selcukflix",
+    "version": "12",
+    "main": "provider.py",
+    "author": "ozkanaysel",
+    "type": "TV_SHOWS_AND_MOVIES"
+}
