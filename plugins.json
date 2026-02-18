@@ -1,15 +1,15 @@
 [
   {
-    "name": "Dizipal",
-    "internalName": "Dizipal",
-    "id": "com.dizipal.skystream",
+    "name": "NF",
+    "internalName": "NF",
+    "id": "dev.akash.stars.nf",
     "version": 2,
     "authors": ["ozkanaysel"],
-    "description": "Dizipal",
+    "description": "NF",
     "language": "tr",
     "types": ["Movies", "TV"],
-    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/Dizipal.sky",
-    "manifest": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/Dizipal/manifest.json",
+    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/netflix_mirror.sky.sky",
+    "manifest": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/netflix_mirror/manifest.json",
     "icon": "https://raw.githubusercontent.com/akashdh11/skystream/main/assets/icon.png"
   }
 ]
