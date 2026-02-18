@@ -1,15 +1,15 @@
 [
   {
-    "name": "slc",
-    "internalName": "slc",
+    "name": "Dizipal",
+    "internalName": "Dizipal",
     "id": "com.ozkanaysel.slc",
-    "version": 10,
+    "version": 1,
     "authors": ["ozkanaysel"],
-    "description": "Selcukflix JS Mirror Extension",
+    "description": "Dizipal",
     "language": "tr",
     "types": ["Movies", "TV"],
-    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/slc.sky",
-    "manifest": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/slc/manifest.json",
+    "url": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/Dizipal.sky",
+    "manifest": "https://raw.githubusercontent.com/ozkanaysel/SkyRepo/main/Dizipal/manifest.json",
     "icon": "https://raw.githubusercontent.com/akashdh11/skystream/main/assets/icon.png"
   }
 ]
